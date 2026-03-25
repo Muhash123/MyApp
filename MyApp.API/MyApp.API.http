@@ -1,0 +1,30 @@
+@MyApp.API_HostAddress = http://localhost:5138
+
+GET {{MyApp.API_HostAddress}}/api/Student/GetAllStudents
+Accept: application/json
+
+###
+POST {{MyApp.API_HostAddress}}/api/Student/AddStudent
+Content-Type: application/json
+
+{
+  "name": "Muhammet Bashim",
+  "class": "Masterat Anterproneriat",
+  "fatherName": "Mt",
+  "motherName": "Br"
+}
+
+###
+DELETE {{MyApp.API_HostAddress}}/api/Student/DeleteStudent/7
+Accept: application/json
+
+###
+PUT {{MyApp.API_HostAddress}}/api/Student/UpdateStudent/4
+Content-Type: application/json
+
+{
+  "name": "Soyun Doe",
+  "class": "12th Grade",
+  "fatherName": "Rrrobert Doe",
+  "motherName": "Mary Doe"
+}

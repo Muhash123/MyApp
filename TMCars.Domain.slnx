@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MyApp.API/MyApp.API.csproj" Id="9054b197-98bf-42d3-91a0-f2b24bfea210" />
+  <Project Path="MyApp.Application/MyApp.Application.csproj" Id="8c9822ef-ba1d-4824-9bc9-c64ecf99bbae" />
+  <Project Path="MyApp.Core/MyApp.Core.csproj" Id="4b889720-fd3d-4bdf-b83b-c4f33ed1440f" />
+  <Project Path="MyApp.Infrastucture/MyApp.Infrastucture.csproj" Id="d36301d2-dcaf-46bb-87b5-e5d7429c2202" />
+</Solution>
